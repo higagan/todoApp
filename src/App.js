@@ -13,7 +13,7 @@ class App extends Component {
         <Header></Header>
         <div className="container">
           <div className="to-do-container">
-            <AddTodo className="search" />
+            {/* <AddTodo className="search" /> */}
             <div className="space-between"></div>
             <TodoList />
           </div>
